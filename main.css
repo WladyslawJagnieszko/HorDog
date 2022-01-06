@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.cardTop {
+    position: relative;
+}
+
+.topImage {
+    width: 100%;
+}
+
+.hardechko {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    width: 20px;
+    height: 18px;
+}
+
+.promo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #F44336;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 20px;
+    width: fit-content;
+    font-family: 'Nunito', sans-serif;
+}
+
+.promo-new {
+    background-color: #03A9F4;
+}
